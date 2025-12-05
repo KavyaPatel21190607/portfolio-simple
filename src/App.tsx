@@ -19,7 +19,7 @@ export default function App() {
     if (currentPath === '/cms' || currentPath.startsWith('/cms/')) {
       setIsRedirecting(true);
       // Redirect to CMS frontend running on port 3000
-      window.location.href = 'http://localhost:3000';
+      window.location.href = 'https://cms-frontend-lake-ten.vercel.app/';
     }
   }, []);
 
